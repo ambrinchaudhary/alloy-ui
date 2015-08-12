@@ -6,6 +6,8 @@
 
 var ACE_EDITOR_BASE_PATH = A.config.base + 'aui-ace-editor/ace';
 
+var ace = AUI.ace;
+
 ace.config.set('modePath', ACE_EDITOR_BASE_PATH);
 ace.config.set('themePath', ACE_EDITOR_BASE_PATH);
 ace.config.set('workerPath', ACE_EDITOR_BASE_PATH);
